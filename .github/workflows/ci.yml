@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Initialize environment
-        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@4b4659eabe75a67cebf4692c3c88a98275c67200
+        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@ee61b6758d835c67c4c27093f71d94ebe180dff6
       - name: Install node modules
         run: pnpm install --frozen-lockfile
       - name: Check Formatting
@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Initialize environment
-        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@4b4659eabe75a67cebf4692c3c88a98275c67200
+        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@ee61b6758d835c67c4c27093f71d94ebe180dff6
       - name: Install node modules
         run: pnpm install --frozen-lockfile
       - name: Ensure Build
